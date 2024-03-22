@@ -1,0 +1,39 @@
+{
+  "name": "quisquamquos",
+  "version": "1.0.0",
+  "description": "Sign ethereum transaction/messages using Trezor",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CheyanneGutmann/quisquamquos.git"
+  },
+  "author": "LesleyBlanda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CheyanneGutmann/quisquamquos.git/issues"
+  },
+  "homepage": "https://github.com/CheyanneGutmann/quisquamquos.git",
+  "dependencies": {
+    "@trezor/connect": "^9.1.3",
+    "@trezor/connect-plugin-ethereum": "^9.0.2",
+    "ethers": "^5.5.4",
+    "hdkey": "^2.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.0",
+    "@typescript-eslint/eslint-plugin": "^4.27.0",
+    "@typescript-eslint/parser": "^4.27.0",
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "jest": "^28.1.0",
+    "prettier": "^2.3.1",
+    "ts-jest": "^28.0.4",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.3.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
